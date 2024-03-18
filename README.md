@@ -1,1 +1,2 @@
 # odin-recipes
+In this lesson by The Odin Project, I would have demonstrated the proper use of git commands in the CLI, a full usage of the HTML tags, proper use of image formats, and setting up the HTML boilerplate.
