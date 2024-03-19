@@ -1,0 +1,23 @@
+body {
+    background-color: #E1EFE6;
+    font-family: 'Helvetica', 'Verdana', sans-serif;
+}
+
+.header-img {
+    height: auto;
+    width: 200px;
+}
+
+.header {
+    font-family: 'Lucida Console', monospace;
+    text-align: center;
+}
+
+
+.subheader {
+    font-weight: 700;
+}
+
+.subheader {
+    color: #EFCB68;
+}
