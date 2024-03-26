@@ -1,23 +1,79 @@
 body {
     background-color: #E1EFE6;
     font-family: 'Helvetica', 'Verdana', sans-serif;
+    margin: 0;
 }
 
-.header-img {
-    height: auto;
-    width: 200px;
-}
-
-.header {
-    font-family: 'Lucida Console', monospace;
+header {
     text-align: center;
 }
 
 
-.subheader {
+.display {
+    display: block;
+    object-fit: cover;
+}
+
+.subheader-intro {
+    width: 75%;
+}
+
+.subheader-img {
+    width: 15%;
+    text-align: center;
+}
+
+.intro {
     font-weight: 700;
+    font-size: 40px;
+    color: #EFCB68;
+}
+
+.intro-desc {
+    font-size: 22px;
+    color: #fff;
 }
 
 .subheader {
-    color: #EFCB68;
+    width: 85%;
+    margin: 0 auto;
+    border: 3px solid #160C28;
+    background-color: #160C28;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+.subheader p,
+.subheader h2 {
+    padding: 0;
+    margin: 10px;
+}
+
+.learn {
+    color: #fff;
+    background-color: bisque;
+}
+
+.cards,
+.recipe {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.recipe {
+    display: flex;
+}
+
+
+.recipe-1,
+.recipe-2,
+.recipe-3 {
+    width: 33%;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.recipe-header {
+    font-size: 30px;
 }
