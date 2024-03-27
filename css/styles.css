@@ -8,6 +8,9 @@ header {
     text-align: center;
 }
 
+.header {
+    font-size: 50px;
+}
 
 .display {
     display: block;
@@ -15,11 +18,10 @@ header {
 }
 
 .subheader-intro {
-    width: 75%;
+    width: 100%;
 }
 
 .subheader-img {
-    width: 15%;
     text-align: center;
 }
 
@@ -35,13 +37,15 @@ header {
 }
 
 .subheader {
-    width: 85%;
-    margin: 0 auto;
-    border: 3px solid #160C28;
     background-color: #160C28;
-    border-radius: 10px;
-    padding: 20px;
+}
+
+.subheader-container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
     display: flex;
+    padding: 20px;
 }
 
 .subheader p,
@@ -72,7 +76,9 @@ header {
     width: 33%;
     text-align: center;
     margin-right: 20px;
+    background-color: #b9faf8;
 }
+
 
 .recipe-header {
     font-size: 30px;
